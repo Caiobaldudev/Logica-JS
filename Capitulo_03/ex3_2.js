@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')(); //Node package
 const veiculo = prompt('Veículo: ');
 const preco = Number(prompt('Preço R$: '));
 const entrada = preco * 0.50;

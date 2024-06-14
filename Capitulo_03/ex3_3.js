@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync")();
+const prompt = require("prompt-sync")(); //Node package
 const salario = Number(prompt("Salário R$: "));
 const tempo = Number(prompt("Tempo (anos): "));
 const quadrienios = Math.floor(tempo / 4);

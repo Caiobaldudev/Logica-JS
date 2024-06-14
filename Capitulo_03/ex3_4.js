@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')(); //Node package
 const pesoKg = Number(prompt('Peso da Ração (kg): '))
 const consumo = Number(prompt('Consumo Diário(gr): '))
 const pesoGr = pesoKg * 1000;
