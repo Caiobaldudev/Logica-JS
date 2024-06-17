@@ -1,5 +1,4 @@
-// Elaborar um programa que leia a hora no Brasil e informa a hora na França.
-// O fuso horário da França em relação ao Brasil é de +5H
+// Elaborar um programa que leia um numero e calcule sua raiz quadrada.
 const frm = document.querySelector("form");
 const resp = document.querySelector("h3");
 
