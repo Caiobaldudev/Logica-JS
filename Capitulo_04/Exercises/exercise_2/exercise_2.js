@@ -1,4 +1,3 @@
-// Elaborar um programa que leia um numero. Informe se ele é par ou ímpar.
 const frm = document.querySelector("form");
 const resp = document.querySelector("h3");
 
