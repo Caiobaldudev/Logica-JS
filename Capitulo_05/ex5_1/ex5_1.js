@@ -1,4 +1,4 @@
-// Elaborar um programa que leia um numero e calcule sua raiz quadrada.
+
 const frm = document.querySelector("form");
 const resp = document.querySelector("pre");
 
