@@ -7,8 +7,8 @@ frm.addEventListener("submit", (e) => {
   const numero = Number(frm.inNumero.value);
   let resposta = "";
   for (i = 1; i <= 10; i++) {
-    resposta = resposta + numero + ' x ' + i + ' = ' + (numero * i) + '\n'
-    // resposta = `${resposta}${numero} x ${i} = ${numero * i}\n` ou podemos utilizar desta forma
+    // resposta = resposta + numero + ' x ' + i + ' = ' + (numero * i) + '\n' // podemos usar assim
+    resposta = `${resposta}${numero} x ${i} = ${numero * i}\n` //Forma usando template strings, mais clean
   }
   resp.innerText = resposta
 });
